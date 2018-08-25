@@ -9,7 +9,6 @@ public class ArrayRotation {
 				System.out.println(arr[col][row]);
 			}
 		} 
-		
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,10 +16,8 @@ public class ArrayRotation {
 		for (int row = 0; row < arr.length; row++) {
 			for (int col = 0; col < arr.length; col++) {
 				arr[row][col] = arr[3 - col - 1][row];
-				//System.out.println(arr[col][row]);
 			}
 		}
-		
 		ArrayRotation rr=new ArrayRotation();
 		rr.printList(arr);
 	} 
