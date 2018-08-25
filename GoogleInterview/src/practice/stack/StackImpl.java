@@ -1,7 +1,5 @@
 package practice.stack;
 
-import java.util.Stack;
-
 public class StackImpl {
 
 	int Max=1000;
