@@ -18,7 +18,7 @@ public class CyclicRotate {
 		cycle[i]=temp;
 	}
 	public void display(int array[]) {
-		System.out.println(array.length);
+	
 		for(int i=0;i<=array.length-1;i++) {
 			System.out.println(array[i]);
 		}
