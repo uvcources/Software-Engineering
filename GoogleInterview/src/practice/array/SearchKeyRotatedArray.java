@@ -27,17 +27,12 @@ public class SearchKeyRotatedArray {
 		return searchElement(array, low, pivot - 1, key);
 	}
 
-	public void search(int array[], int low, int high) {
-
-	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a[] = { 30, 40, 50, 60, 70, 80, 10, 20 };
 		SearchKeyRotatedArray search = new SearchKeyRotatedArray();
 		int index = search.searchElement(a, 0, a.length - 1, 30);
 		System.out.println("Searched Element at " + index);
-
 	}
 
 }
